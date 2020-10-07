@@ -40,5 +40,7 @@ day/month/year hour:minutes:seconds "message payload"
 ## Server Endpoints
 
  ```
-/register?username=<user_name>&ip=<ipaddress>&port=<port>
+/register?username=<user_name>&ip=<ipaddress>&port=<port> // to register a new client on the server
+
+/userlist //to obtain the active nodes list
 ```
