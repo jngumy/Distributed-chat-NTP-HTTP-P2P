@@ -44,3 +44,34 @@ day/month/year hour:minutes:seconds "message payload"
 
 /userlist //to obtain the active nodes list
 ```
+
+## Setup
+
+Clone the repo and install the dependencies.
+
+ ```
+git clone https://github.com/jngumy/Distributed-chat-NTP-HTTP-P2P.git
+cd Distributed-chat-NTP-HTTP-P2P
+
+```
+and install the dependencies
+
+ ```
+npm install
+
+```
+
+To start the  http server, run the following
+
+ ```
+node server.js 
+
+```
+
+and to start some clients, run the following
+
+ ```
+node cliente.js [username]
+
+```
+
